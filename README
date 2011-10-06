@@ -11,6 +11,10 @@
 var zDate:ZDate = new ZDate();
 
 
+// --- set verbosity: 0 = no trace, 1 = all trace
+zDate.verbosity = 0;
+
+
 // --- find out client's time in UTC
 trace( 'client UTC time: ' + zDate.getClientsTimeInUTC());
 
